@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html class="no-touch" lang="en-US" prefix="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Data Worth</title>
+  <script type="text/javascript" async="" src="js/insight.min.js"></script>
+  <script async="" src="js/analytics.js"></script>
+  <link rel="icon" href="images/cropped-girikon-logo-32x32.png" sizes="32x32">
+  <link rel="icon" href="images/cropped-girikon-logo-192x192.png" sizes="192x192">
+  <link rel="apple-touch-icon-precomposed" href="images/cropped-girikon-logo-180x180.png"> 
+  <style>
+    /* Style the tab */
+    .tabmenu {
+      display: flex;
+      justify-content: flex-start;
+      align-items: normal;
+    }
+
+    .tabmenu .tabcontent a.tabcontent-head {
+      font-size: 18px;
+      font-weight: 600;
+      color: #0e71b6;
+      border-bottom: 1px solid #ccc;
+      padding: 10px 0px 2px 0px;
+      margin-bottom: 8px;
+    }
+
+    .tabcontent .sub-menu li {
+      margin: 5px 0px !important;
+    }
+
+    .tabcontent .sub-menu li a {
+      border-bottom: 1px #eee solid !important;
+      border-top: 0px #eee solid !important;
+      font-weight: 600 !important;
+    }
+
+    .tabcontent .sub-menu li:last-child a {
+      border-bottom: 0px #eee solid !important;
+    }
+
+    .megamenutab {
+      float: left;
+      background-color: transparent;
+      width: 25%;
+      padding: 20px;
+      border-right: 2px solid #ccc;
+    }
+
+    /* Style the buttons inside the tab */
+    .megamenutab button {
+      display: block;
+      background-color: inherit;
+      color: black;
+      padding: 8px 16px;
+      width: 100%;
+      border: none;
+      outline: none;
+      text-align: left;
+      cursor: pointer;
+      transition: 0.3s;
+      font-size: 17px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    .megamenutab button img {
+      margin-right: 10px;
+    }
+
+    /* Change background color of buttons on hover */
+    .megamenutab button:hover {
+      background-color: #eeeeee;
+      border-radius: 5px;
+    }
+
+    /* Create an active/current "tab button" class */
+    .megamenutab button.active {
+      background-color: #0e71b6;
+      border-radius: 5px;
+      color: #fff;
+      font-weight: 600;
+    }
+
+    /* Style the tab content */
+    .tabcontent {
+      float: left;
+      padding: 0px 12px;
+      width: 75%;
+    }
+
+    .salesforce-logos {
+      text-align: center;
+      margin: 15px 0px 0px 0px;
+    }
+
+    .salesforce-logos img {
+      width: 100px;
+      margin: 0px 10px 20px 10px;
+      height: 106px;
+    }
+
+    .hubspot-menu-logos {
+      text-align: center;
+      margin: 15px 0px 0px 0px;
+    }
+
+    .hubspot-menu-logos img {
+      width: 200px;
+    }
+  </style>
+  <link rel="stylesheet" id="theme_styles" defer="defer" href="css/style.css" type="text/css">
+  <script type="text/javascript" src="js/5821.js" async="async" info="reqby111on161122byMST"></script>
+</head>
+<body data-page-id="2884">
+  <div class="pageWrapper"><a class="navbtn homepage" href="#"><i class="fa fa-navicon"></i></a>
+    <div class="new-nav">
+      <ul id="menu-main-menu">
+        <li id="menu-item-8231"
+          class="active menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children megamenu hasChildren">
+          <span class="inner-mega"><a class="shape border5px" href="/services/"><span
+                data-hover="Services"><span>Services</span></span><span class="collap"><i
+                  class="fa fa-chevron-down"></i></span></a></span>
+          <ul class="sub-menu" style="display: block">
+            <li id="menu-item-8653"
+              class="active girikon-megamenu-items menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children hasChildren">
+              <a class="shape border5px" href="/salesforce-cloud/"><span><span>Salesforce Cloud</span></span><span
+                  class="collap"><i class="fa fa-chevron-down"></i></span></a>
+              <ul class="sub-menu" style="display: block">
+                <li id="menu-item-11085" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                    class="shape border5px" href="/salesforce-consulting-services/"><span><span><i
+                          class="menu-icons menu-icons-gear"></i> Salesforce Consulting Services</span></span></a></li>
+                <li id="menu-item-8645" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                    class="shape border5px" href="/salesforce-implementation-services/"><span><span><i
+                          class="menu-icons menu-icons-computer"></i> Salesforce Sales &amp; Service
+                        Cloud</span></span></a></li>
+                <li id="menu-item-8646" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                    class="shape border5px" href="/force-com-app-development/"><span><span><i
+                          class="menu-icons menu-icons-app-development"></i> Force.com App Development</span></span></a>
+                </li>
+                <li id="menu-item-8646" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                    class="shape border5px" href="/force-com-app-development/"><span><span><i
+                          class="menu-icons menu-icons-app-development"></i> Force.com App Development</span></span></a>
+                </li>
+                <li id="menu-item-8647" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                    class="shape border5px" href="/salesforce-lightning/"><span><span><i
+                          class="menu-icons menu-icons-salesforce-lightening-services"></i> Salesforce Lightning
+                        Services</span></span></a></li>
+                <li id="menu-item-8900907" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                    href="/salesforce-ai-services/"><span><span><i class="menu-icons menu-icons-SAS"></i> Salesforce AI
+                        Services</span></span></a></li>
+                <li id="menu-item-8647" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                    class="shape border5px" href="/salesforce-communities-implementation-services/"><span><span><i
+                          class="menu-icons menu-icons-community"></i> Salesforce Experience Cloud</span></span></a>
+                </li>
+                <li id="menu-item-86407" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                    class="shape border5px" href="/einstein/"><span><span><i class="menu-icons menu-icons-einstein"></i>
+                        Einstein</span></span></a></li>
+                <li id="menu-item-8411" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                    class="shape border5px" href="/offshore-salesforce-development/"><span><span><i
+                          class="menu-icons menu-icons-web"></i> Salesforce Development Services</span></span></a></li>
+                <li id="menu-item-9500" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                    class="shape border5px" href="/mulesoft-consulting/"><span><span><i
+                          class="menu-icons muleSoft-consulting-icon"></i> MuleSoft Consulting
+                        Services</span></span></a></li>
+                <li id="menu-item-8648" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                    class="shape border5px" href="/salesforce-integration-services/"><span><span><i
+                          class="menu-icons menu-icons-arrows"></i> Salesforce Integration Services</span></span></a>
+                </li>
+                <li id="menu-item-8649" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                    class="shape border5px" href="/salesforce-support/"><span><span><i
+                          class="menu-icons menu-icons-person"></i> Salesforce Support</span></span></a></li>
+                <li id="menu-item-11157" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                    class="shape border5px" href="/salesforce-marketing-cloud/"><span><span><i
+                          class="menu-icons menu-icons-marketing-cloud"></i> Salesforce Marketing
+                        Cloud</span></span></a></li>
+                <li id="menu-item-111057" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                    class="shape border5px" href="/data-cloud/"><span><span><i
+                          class="menu-icons menu-icons-data-cloud"></i> Data Cloud</span></span></a></li>
+              </ul>
+            </li>
+            <li id="menu-item-8668"
+              class="girikon-megamenu-items menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children hasChildren">
+              <a class="shape border5px" href="/hubspot-services/"><span><span>HubSpot Services</span></span><span
+                  class="collap"><i class="fa fa-chevron-down"></i></span></a>
+              <ul class="sub-menu">
+                <li id="menu-item-11189" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                    class="shape border5px" href="/hubspot-consulting/"><span><span><i
+                          class="menu-icons menu-icons-hubspot"></i> HubSpot Consulting</span></span></a></li>
+                <li id="menu-item-11190" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                    class="shape border5px" href="/hubspot-sales-hub/"><span><span><i
+                          class="menu-icons menu-icons-hubspot-sales"></i> HubSpot Sales Hub</span></span></a></li>
+                <li id="menu-item-11191" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                    class="shape border5px" href="/hubspot-service-hub/"><span><span><i
+                          class="menu-icons menu-icons-hubspot-service"></i> HubSpot Service Hub</span></span></a></li>
+                <li id="menu-item-11192" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                    class="shape border5px" href="/hubspot-marketing-hub/"><span><span><i
+                          class="menu-icons menu-icons-hubspot-marketing"></i> HubSpot Marketing Hub</span></span></a>
+                </li>
+                <li id="menu-item-11193" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                    class="shape border5px" href="/hubspot-cms-hub/"><span><span><i
+                          class="menu-icons menu-icons-hubspot-cms"></i> HubSpot CMS Hub</span></span></a></li>
+                <li id="menu-item-11193" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                    class="shape border5px" href="/hubspot-operations-hub/"><span><span><i
+                          class="menu-icons menu-icons-hubspot-Operations"></i> HubSpot Operations Hub</span></span></a>
+                </li>
+                <li id="menu-item-011193" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                    class="shape border5px" href="/hubspot-capabilities/"><span><span><i
+                          class="menu-icons menu-icons-hubspot-capabilities"></i> Hubspot Capabilities</span></span></a>
+                </li>
+                <li id="menu-item-01114" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                    class="shape border5px" href="/hubspot-case-studies/"><span><span><i
+                          class="menu-icons menu-icons-hubspot-case-studies"></i> Hubspot Case Studies</span></span></a>
+                </li>
+              </ul>
+            </li>
+            <li id="menu-item-8668"
+              class="girikon-megamenu-items menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
+              <a href="/services/qa-services/"><span><span>QA Services</span></span></a>
+              <ul class="sub-menu">
+                <li id="menu-item-11190" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                    href="/crm-testing/"><span><span><i class="menu-icons menu-icons-QA-crm"></i> CRM Testing Services
+                      </span></span></a></li>
+                <li id="menu-item-11189" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                    href="/automation-testing/"><span><span><i class="menu-icons menu-icons-QA-automation"></i>
+                        Automation Testing Services </span></span></a></li>
+                <li id="menu-item-11191" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                    href="/api-testing-services/"><span><span><i class="menu-icons menu-icons-QA-api"></i> API Testing
+                        Services </span></span></a></li>
+                <li id="menu-item-11192" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                    href="/manual-testing/"><span><span><i class="menu-icons menu-icons-QA-manual"></i> Manual Testing
+                        Services </span></span></a></li>
+                <li id="menu-item-11193" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                    href="/database-testing-services/"><span><span><i class="menu-icons menu-icons-QA-database"></i>
+                        Database Testing Services </span></span></a></li>
+                <li id="menu-item-11193" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                    href="/mobile-testing/"><span><span><i class="menu-icons menu-icons-QA-mobile"></i> Mobile Testing
+                        Services </span></span></a></li>
+                <li id="menu-item-11193" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                    href="/qa-outsourcing/"><span><span><i class="menu-icons menu-icons-QA-outsourcing"></i> QA
+                        Outsourcing Services </span></span></a></li>
+                <li id="menu-item-11193" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                    href="/end-to-end-testing/"><span><span><i class="menu-icons menu-icons-QA-EtoE"></i> End to End
+                        Testing </span></span></a></li>
+              </ul>
+            </li>
+            <li id="menu-item-11168"
+              class=" girikon-megamenu-itemsmenu-item menu-item-type-post_type menu-item-object-page menu-item-has-children hasChildren">
+              <a class="shape border5px" href="/services/program-management-pmo/"><span><span>IT
+                    Services</span></span><span class="collap"><i class="fa fa-chevron-down"></i></span></a>
+              <ul class="sub-menu">
+                <li id="menu-item-11169" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                    class="shape border5px" href="/services/technology-areas/node-js/"><span><span><i
+                          class="menu-icons menu-icons-nodejs"></i> Node.js</span></span></a></li>
+                <li id="menu-item-11172" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                    class="shape border5px" href="/talend-consulting-services/"><span><span><i
+                          class="menu-icons menu-icons-talend_logo"></i> Talend Consulting Services</span></span></a>
+                </li>
+                <li id="menu-item-11171" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                    class="shape border5px" href="/services/cloud-services/microsoft-cloud-services/"><span><span><i
+                          class="menu-icons menu-icons-Microsoft_Dynamics_logo"></i> Microsoft Cloud
+                        Services</span></span></a></li>
+                <li id="menu-item-11170" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                    class="shape border5px" href="/services/cloud-services/oracle-cloud-services/"><span><span><i
+                          class="menu-icons menu-icons-oracle"></i> Oracle Services</span></span></a></li>
+                <li id="menu-item-11174" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                    class="shape border5px"
+                    href="/services/professional-services/atlassian/atlassian-consulting-services-plugin-development/"><span><span><i
+                          class="menu-icons menu-icons-Atlassian"></i> Atlassian Services</span></span></a></li>
+                <li id="menu-item-11173" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                    class="shape border5px" href="/services/quality-engineering-testing/girikon-sqae/"><span><span><i
+                          class="menu-icons menu-icons-quality"></i> Girikon SQAE</span></span></a></li>
+                <li id="menu-item-11173" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                    class="shape border5px" href="/salesforce-consulting/"><span><span><i
+                          class="menu-icons menu-icons-gear"></i> Salesforce Consulting</span></span></a></li>
+                <li id="menu-item-8671" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                    class="shape border5px" href="/services/mobile/mobile-app-development/"><span><span><i
+                          class="menu-icons menu-icons-telephone"></i> Mobile App Development</span></span></a></li>
+                <li id="menu-item-8670" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                    class="shape border5px" href="/services/mobile/ios-app-development/"><span><span><i
+                          class="menu-icons menu-icons-technology"></i> iOS App Development</span></span></a></li>
+                <li id="menu-item-8669" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                    class="shape border5px" href="/services/mobile/android-app-development/"><span><span><i
+                          class="menu-icons menu-icons-system"></i> Android App Development</span></span></a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li id="menu-item-8422"
+          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children hasChildren"><a
+            class="shape border5px" href="/company/"><span data-hover="Company"><span>Company</span></span><span
+              class="collap"><i class="fa fa-chevron-down"></i></span></a>
+          <ul class="sub-menu">
+            <li id="menu-item-7887" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                class="shape border5px" href="/company/about-us/"><span><span><i
+                      class="menu-icons menu-icons-about"></i> About Us</span></span></a></li>
+            <li id="menu-item-1111" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                class="shape border5px" href="/management-team/"><span><span><i class="menu-icons menu-icons-team"></i>
+                    Management Team</span></span></a></li>
+            <li id="menu-item-8119" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                class="shape border5px" href="/company/featured-clients/"><span><span><i
+                      class="menu-icons menu-icons-client"></i> Featured Clients</span></span></a></li>
+            <li id="menu-item-8118" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                class="shape border5px" href="/company/why-choose-us/"><span><span><i
+                      class="menu-icons menu-icons-why-choose"></i> Why Choose us</span></span></a></li>
+            <li id="menu-item-9843" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                class="shape border5px" href="/company/case-studies/"><span><span><i
+                      class="menu-icons menu-icons-CaseStudy"></i> Case Studies</span></span></a></li>
+            <li id="menu-item-8204" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                class="shape border5px" href="/company/customers-testimonials/"><span><span><i
+                      class="menu-icons menu-icons-testimonial"></i> Customers Testimonials</span></span></a></li>
+            <li id="menu-item-10157" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                class="shape border5px" href="/blog/"><span><span><i class="menu-icons menu-icons-blogger"></i>
+                    Blogs</span></span></a></li>
+            <li id="menu-item-10158" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                class="shape border5px" href="/company/press-release/"><span><span><i
+                      class="menu-icons menu-icons-press-release"></i> Press Release</span></span></a></li>
+            <li id="menu-item-10159" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                class="shape border5px" href="/company/pledge1/"><span><span><i
+                      class="menu-icons menu-icons-pledge1"></i> Pedge1%</span></span></a></li>
+            <li id="menu-item-8997" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                class="shape border5px" href="/company/development-methodology/"><span><span><i
+                      class="menu-icons menu-icons-Development"></i> Development Methodology</span></span></a></li>
+            <li id="menu-item-8996" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                class="shape border5px" href="/company/engagement-models/"><span><span><i
+                      class="menu-icons menu-icons-Engagement-Models"></i> Engagement Models</span></span></a></li>
+            <li id="menu-item-8995" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                class="shape border5px" href="/company/consulting/"><span><span><i
+                      class="menu-icons menu-icons-signs"></i> Consulting</span></span></a></li>
+          </ul>
+        </li>
+        <li id="menu-item-8456"
+          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children hasChildren"><a
+            class="shape border5px" href="/ai-services-main/"><span data-hover="AI Services"><span>AI
+                Services</span></span><span class="collap"><i class="fa fa-chevron-down"></i></span></a>
+          <ul class="sub-menu">
+            <li id="menu-item-890097" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                href="/salesforce-ai-services/"><span><span><i class="menu-icons menu-icons-SAS"></i> Salesforce AI
+                    Services</span></span></a></li>
+            <li id="menu-item-890096" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                href="/generative-ai-services/"><span><span><i class="menu-icons menu-icons-GAS"></i> Generative AI
+                    Services</span></span></a></li>
+            <li id="menu-item-890096" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                href="https://girikon.ai/" target="_blank"><span><span><i class="menu-icons menu-icons-GAi"></i>
+                    Girikon.AI</span></span></a></li>
+          </ul>
+        </li>
+        <li id="menu-item-8620"
+          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children hasChildren"><a
+            class="shape border5px" href="/apps/"><span data-hover="Products"><span>Products</span></span><span
+              class="collap"><i class="fa fa-chevron-down"></i></span></a>
+          <ul class="sub-menu">
+            <li id="menu-item-11332" class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                class="shape border5px" href="/apps/"><span><span><i class="menu-icons menu-icons-arrows"></i>
+                    Salesforce Apps</span></span></a></li>
+          </ul>
+        </li>
+        <li id="menu-item-9014"
+          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children hasChildren"><a
+            class="shape border5px" href="/industries/"><span
+              data-hover="Industries"><span>Industries</span></span><span class="collap"><i
+                class="fa fa-chevron-down"></i></span></a>
+          <ul class="sub-menu">
+            <li id="menu-item-9548" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                class="shape border5px" href="/industries/energy-utilities/"><span><span><i
+                      class="menu-icons menu-icons-energy"></i> Energy / Utilities</span></span></a></li>
+            <li id="menu-item-9547" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                class="shape border5px" href="/industries/education/"><span><span><i
+                      class="menu-icons menu-icons-education"></i> Education</span></span></a></li>
+            <li id="menu-item-9550" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                class="shape border5px" href="/industries/government/"><span><span><i
+                      class="menu-icons menu-icons-government"></i> Government</span></span></a></li>
+            <li id="menu-item-9543" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                class="shape border5px" href="/industries/healthcare-hospitals/"><span><span><i
+                      class="menu-icons menu-icons-healthcare"></i> HealthCare / Hospitals</span></span></a></li>
+            <li id="menu-item-9549" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                class="shape border5px" href="/industries/life-sciences/"><span><span><i
+                      class="menu-icons menu-icons-life-science"></i> Life Sciences</span></span></a></li>
+            <li id="menu-item-9544" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                class="shape border5px" href="/industries/media/"><span><span><i
+                      class="menu-icons menu-icons-media"></i> Media</span></span></a></li>
+            <li id="menu-item-9545" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                class="shape border5px" href="/industries/manufacturing/"><span><span><i
+                      class="menu-icons menu-icons-manufacturing"></i> Manufacturing</span></span></a></li>
+            <li id="menu-item-9546" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                class="shape border5px" href="/industries/retail/"><span><span><i
+                      class="menu-icons menu-icons-retail"></i> Retail</span></span></a></li>
+          </ul>
+        </li>
+        <li id="menu-item-9551" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+            class="shape border5px" href="/career/"><span data-hover="Career"><span>Career</span></span></a></li>
+        <li id="menu-item-9552" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+            class="shape border5px" href="./contact.php"><span data-hover="Contact Us"><span>Contact Us</span></span></a>
+        </li>
+      </ul>
+      <div class="mobile-bottom-nav">
+        <ul>
+          <li><a href="/salesforce-cloud/" class="white"><i class="menu-icons menu-icons-web"></i> Salesforce
+              Development</a></li>
+          <li><a href="/services/mobile/" class="white"><i class="menu-icons menu-icons-telephone"></i> Mobile</a></li>
+          <li><a href="/services/technology-areas/node-js/" class="white"><i class="menu-icons menu-icons-web"></i>
+              MEAN</a></li>
+        </ul>
+      </div>
+      <div class="mobile-call-to-action" align="center">
+        <h4 class="white">Contact Us</h4>
+        <div align="center">
+          <div class="giri_email"><a href="./contact.php"><i class="fa fa-envelope-o white"></i></a></div> �&nbsp;�&nbsp;
+          <div class="giri_phone"><a href="tel:+14803821320" class="phone-button round white"><i
+                class="fa fa-phone"></i></a></div>
+        </div>
+        <div class="bold">+1 480-382-1320</div>
+      </div>
+    </div>
+    <header class="top-head sticky-nav header-trans" data-sticky="true">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="pull-left logo"><a href="/" rel="home" class="logo-img"> <img width="187px" height="57px"
+                alt="Girikon" src="images/girikon-logo.png"> </a></div>
+          <div class="pull-right responsive-nav">
+            <div class="top-bar">
+              <div class="right-top right-top-new">
+                <ul>
+                  <li><a class="border5px" href="tel:+14803821320"><span><img src="images/usa-flag.jpg" alt="USA Flag"
+                          title="USA Flag" class="country-flag-2"> +1-480-382-1320</span></a></li>
+                  <li><a class="border5px" href="tel:+611300332888"><span><img src="images/australia-flag.jpg"
+                          alt="Australia Flag" title="Australia Flag" class="country-flag-2">
+                        +61-1300-332-888</span></a></li>
+                  <li><a class="border5px" href="tel:+91 9811400594"><span><img src="images/india-flag.jpg"
+                          alt="india Flag" title="india Flag" class="country-flag-2"> +91 9811400594</span></a></li>
+                  <li><a class="shape sales-email border5px" href="./contact.php"><i class="fa fa-envelope"></i>
+                      sales@girikon.com</a></li>
+                </ul>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <nav class="top-nav nav-animate to-bottom ">
+              <ul id="menu-main-menu">
+                <li id="menu-item-8422"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children hasChildren"><a
+                    class="shape border5px" href="/company/"><span data-hover="Company"><span>Company</span></span></a>
+                  <ul class="sub-menu">
+                    <li id="menu-item-7887" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                        href="/company/about-us/"><span><span><i class="menu-icons menu-icons-about"></i> About
+                            Us</span></span></a></li>
+                    <li id="menu-item-7887" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                        href="/management-team/"><span><span><i class="menu-icons menu-icons-team"></i> Management
+                            Team</span></span></a></li>
+                    <li id="menu-item-8119" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                        href="/company/featured-clients/"><span><span><i class="menu-icons menu-icons-client"></i>
+                            Featured Clients</span></span></a></li>
+                    <li id="menu-item-8118" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                        href="/company/why-choose-us/"><span><span><i class="menu-icons menu-icons-why-choose"></i> Why
+                            Choose us</span></span></a></li>
+                    <li id="menu-item-9843" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                        href="/company/case-studies/"><span><span><i class="menu-icons menu-icons-CaseStudy"></i> Case
+                            Studies</span></span></a></li>
+                    <li id="menu-item-8204" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                        href="/company/customers-testimonials/"><span><span><i
+                              class="menu-icons menu-icons-testimonial"></i> Customers Testimonials</span></span></a>
+                    </li>
+                    <li id="menu-item-10157" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                        href="/blog/"><span><span><i class="menu-icons menu-icons-blogger"></i> Blogs</span></span></a>
+                    </li>
+                    <li id="menu-item-10158" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                        href="/company/press-release/"><span><span><i class="menu-icons menu-icons-press-release"></i>
+                            Press Release</span></span></a></li>
+                    <li id="menu-item-10159" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                        href="/company/pledge1/"><span><span><i class="menu-icons menu-icons-pledge1"></i>
+                            Pedge1%</span></span></a></li>
+                    <li id="menu-item-8997" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                        href="/company/development-methodology/"><span><span><i
+                              class="menu-icons menu-icons-Development"></i> Development Methodology</span></span></a>
+                    </li>
+                    <li id="menu-item-8996" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                        href="/company/engagement-models/"><span><span><i
+                              class="menu-icons menu-icons-Engagement-Models"></i> Engagement Models</span></span></a>
+                    </li>
+                    <li id="menu-item-8995" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                        href="/company/consulting/"><span><span><i class="menu-icons menu-icons-signs"></i>
+                            Consulting</span></span></a></li>
+                  </ul>
+                </li>
+                <li id="menu-item-8231"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children megamenu hasChildren">
+                  <span class="inner-mega"><a class="shape border5px" href="/services/"><span
+                        data-hover="Services"><span>Services</span></span></a></span>
+                  <ul class="sub-menu leftbordernone">
+                    <li id="menu-item-8653"
+                      class="girikon-megamenu-items menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
+                      <div class="tabmenu">
+                        <div class="megamenutab"> <button class="tablinks active"
+                            onclick="openCity(event, 'salesforce-cloud')" id="defaultOpen"><img alt="Girikon"
+                              src="images/salesforce-cloud-icon.png"> Salesforce Cloud</button> <button class="tablinks"
+                            onclick="openCity(event, 'hubSpot-services')"><img alt="Girikon"
+                              src="images/hubspot-services-icon.png"> HubSpot Services</button> <button class="tablinks"
+                            onclick="openCity(event, 'qa-services')"><img alt="Girikon"
+                              src="images/qa-services-icon.png"> QA Services</button> <button class="tablinks"
+                            onclick="openCity(event, 'it-services')"><img alt="Girikon"
+                              src="images/it-services-icon.png"> IT Services</button> </div>
+                        <div id="salesforce-cloud" class="tabcontent" style="display: block;"> <a
+                            class="tabcontent-head" href="/salesforce-cloud/">Salesforce Cloud</a>
+                          <div class="row">
+                            <div class="col-lg-4">
+                              <ul class="sub-menu">
+                                <li id="menu-item-11085"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                    href="/salesforce-consulting-services/"><span><span><i
+                                          class="menu-icons menu-icons-gear"></i> Salesforce Consulting
+                                        Services</span><b class="sub-t">Salesforce Consulting Services</b></span></a>
+                                </li>
+                                <li id="menu-item-8645"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                    href="/salesforce-implementation-services/"><span><span><i
+                                          class="menu-icons menu-icons-computer"></i> Salesforce Sales &amp; Service
+                                        Cloud</span><b class="sub-t">Salesforce Sales and Service Cloud</b></span></a>
+                                </li>
+                                <li id="menu-item-8646"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                    href="/force-com-app-development/"><span><span><i
+                                          class="menu-icons menu-icons-app-development"></i> Force.com App
+                                        Development</span><b class="sub-t">Force.com App Development</b></span></a></li>
+                                <li id="menu-item-8647"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                    href="/salesforce-lightning/"><span><span><i
+                                          class="menu-icons menu-icons-salesforce-lightening-services"></i> Salesforce
+                                        Lightning Services</span></span></a></li>
+                                <li id="menu-item-8900907"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                    href="/salesforce-ai-services/"><span><span><i
+                                          class="menu-icons menu-icons-SAS"></i> Salesforce AI
+                                        Services</span></span></a></li>
+                                <li id="menu-item-8647"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                    href="/salesforce-communities-implementation-services/"><span><span><i
+                                          class="menu-icons menu-icons-community"></i> Salesforce Experience
+                                        Cloud</span><b class="sub-t">Salesforce Experience Cloud</b></span></a></li>
+                                <li id="menu-item-8647"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                    href="/einstein/"><span><span><i class="menu-icons menu-icons-einstein"></i>
+                                        Einstein</span><b class="sub-t">Einstein</b></span></a></li>
+                              </ul>
+                            </div>
+                            <div class="col-lg-4">
+                              <ul class="sub-menu">
+                                <li id="menu-item-8411"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                    href="/offshore-salesforce-development/"><span><span><i
+                                          class="menu-icons menu-icons-web"></i> Salesforce Development
+                                        Services</span><b class="sub-t">Salesforce Development</b></span></a></li>
+                                <li id="menu-item-9500"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                    href="/mulesoft-consulting/"><span><span><i
+                                          class="menu-icons muleSoft-consulting-icon"></i> MuleSoft Consulting
+                                        Services</span><b class="sub-t">MuleSoft Consulting Services</b></span></a></li>
+                                <li id="menu-item-8648"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                    href="/salesforce-integration-services/"><span><span><i
+                                          class="menu-icons menu-icons-arrows"></i> Salesforce Integration
+                                        Services</span><b class="sub-t">Salesforce Integration Services</b></span></a>
+                                </li>
+                                <li id="menu-item-8649"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                    href="/salesforce-support/"><span><span><i class="menu-icons menu-icons-person"></i>
+                                        Salesforce Support</span><b class="sub-t">Salesforce Support</b></span></a></li>
+                                <li id="menu-item-11157"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                    href="/salesforce-marketing-cloud/"><span><span><i
+                                          class="menu-icons menu-icons-marketing-cloud"></i> Salesforce Marketing
+                                        Cloud</span></span></a></li>
+                                <li id="menu-item-111057"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                    href="/data-cloud/"><span><span><i class="menu-icons menu-icons-data-cloud"></i>
+                                        Data Cloud</span></span></a></li>
+                              </ul>
+                            </div>
+                            <div class="col-lg-4">
+                              <div class="salesforce-logos"> <img alt="Girikon"
+                                  src="images/salesforce-partner-2015.png"> <img alt="Girikon"
+                                  src="images/appexchange-logo.png"> <img alt="Girikon"
+                                  src="images/salesforce-consulting-partner.png"> <img alt="Girikon"
+                                  src="images/pledge1.png"> </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div id="hubSpot-services" class="tabcontent" style="display: none;"> <a class="tabcontent-head"
+                            href="/hubspot-services/"><span><span>HubSpot Services</span></span></a>
+                          <div class="row">
+                            <div class="col-lg-4">
+                              <ul class="sub-menu">
+                                <li id="menu-item-11189"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                    href="/hubspot-consulting/"><span><span><i
+                                          class="menu-icons menu-icons-hubspot"></i> HubSpot
+                                        Consulting</span></span></a></li>
+                                <li id="menu-item-11190"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                    href="/hubspot-sales-hub/"><span><span><i
+                                          class="menu-icons menu-icons-hubspot-sales"></i> HubSpot Sales
+                                        Hub</span></span></a></li>
+                                <li id="menu-item-11191"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                    href="/hubspot-service-hub/"><span><span><i
+                                          class="menu-icons menu-icons-hubspot-service"></i> HubSpot Service
+                                        Hub</span></span></a></li>
+                                <li id="menu-item-11192"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                    href="/hubspot-marketing-hub/"><span><span><i
+                                          class="menu-icons menu-icons-hubspot-marketing"></i> HubSpot Marketing
+                                        Hub</span></span></a></li>
+                              </ul>
+                            </div>
+                            <div class="col-lg-4">
+                              <ul class="sub-menu">
+                                <li id="menu-item-11193"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                    href="/hubspot-cms-hub/"><span><span><i
+                                          class="menu-icons menu-icons-hubspot-cms"></i> HubSpot CMS
+                                        Hub</span></span></a></li>
+                                <li id="menu-item-11193"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                    href="/hubspot-operations-hub/"><span><span><i
+                                          class="menu-icons menu-icons-hubspot-Operations"></i> HubSpot Operations
+                                        Hub</span></span></a></li>
+                                <li id="menu-item-011193"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                    href="/hubspot-capabilities/"><span><span><i
+                                          class="menu-icons menu-icons-hubspot-capabilities"></i> Hubspot
+                                        Capabilities</span></span></a></li>
+                                <li id="menu-item-01114"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                    href="/hubspot-case-studies/"><span><span><i
+                                          class="menu-icons menu-icons-hubspot-case-studies"></i> Hubspot Case
+                                        Studies</span></span></a></li>
+                              </ul>
+                            </div>
+                            <div class="col-lg-4">
+                              <div class="hubspot-menu-logos"> <img alt="Girikon" src="images/hubspot-menu-logos.png">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div id="qa-services" class="tabcontent" style="display: none;"> <a class="tabcontent-head"
+                            href="/services/qa-services/"><span><span>QA Services</span></span></a>
+                          <div class="row">
+                            <div class="col-lg-6">
+                              <ul class="sub-menu">
+                                <li id="menu-item-11190"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                    href="/crm-testing/"><span><span><i class="menu-icons menu-icons-QA-crm"></i> CRM
+                                        Testing Services </span></span></a></li>
+                                <li id="menu-item-11189"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                    href="/automation-testing/"><span><span><i
+                                          class="menu-icons menu-icons-QA-automation"></i> Automation Testing Services
+                                      </span></span></a></li>
+                                <li id="menu-item-11191"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                    href="/api-testing-services/"><span><span><i
+                                          class="menu-icons menu-icons-QA-api"></i> API Testing Services
+                                      </span></span></a></li>
+                                <li id="menu-item-11192"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                    href="/manual-testing/"><span><span><i class="menu-icons menu-icons-QA-manual"></i>
+                                        Manual Testing Services </span></span></a></li>
+                              </ul>
+                            </div>
+                            <div class="col-lg-6">
+                              <ul class="sub-menu">
+                                <li id="menu-item-11193"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                    href="/database-testing-services/"><span><span><i
+                                          class="menu-icons menu-icons-QA-database"></i> Database Testing Services
+                                      </span></span></a></li>
+                                <li id="menu-item-11193"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                    href="/mobile-testing/"><span><span><i class="menu-icons menu-icons-QA-mobile"></i>
+                                        Mobile Testing Services </span></span></a></li>
+                                <li id="menu-item-11193"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                    href="/qa-outsourcing/"><span><span><i
+                                          class="menu-icons menu-icons-QA-outsourcing"></i> QA Outsourcing Services
+                                      </span></span></a></li>
+                                <li id="menu-item-11193"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                    href="/end-to-end-testing/"><span><span><i
+                                          class="menu-icons menu-icons-QA-EtoE"></i> End to End Testing
+                                      </span></span></a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div id="it-services" class="tabcontent" style="display: none;"> <a class="tabcontent-head"
+                            href="/services/program-management-pmo/"><span><span>IT Services</span></span></a>
+                          <div class="row">
+                            <div class="col-lg-6">
+                              <ul class="sub-menu">
+                                <li id="menu-item-11169"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                    href="/services/technology-areas/node-js/"><span><span><i
+                                          class="menu-icons menu-icons-nodejs"></i> Node.js</span></span></a></li>
+                                <li id="menu-item-11172"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                    href="/talend-consulting-services/"><span><span><i
+                                          class="menu-icons menu-icons-talend_logo"></i> Talend Consulting
+                                        Services</span></span></a></li>
+                                <li id="menu-item-11171"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                    href="/services/cloud-services/microsoft-cloud-services/"><span><span><i
+                                          class="menu-icons menu-icons-microsoft"></i> Microsoft Cloud
+                                        Services</span></span></a></li>
+                                <li id="menu-item-11170"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                    href="/services/cloud-services/oracle-cloud-services/"><span><span><i
+                                          class="menu-icons menu-icons-oracle"></i> Oracle Services</span></span></a>
+                                </li>
+                                <li id="menu-item-11174"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                    href="/services/professional-services/atlassian/atlassian-consulting-services-plugin-development/"><span><span><i
+                                          class="menu-icons menu-icons-Atlassian"></i> Atlassian
+                                        Services</span></span></a></li>
+                              </ul>
+                            </div>
+                            <div class="col-lg-6">
+                              <ul class="sub-menu">
+                                <li id="menu-item-11173"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                    href="/services/quality-engineering-testing/girikon-sqae/"><span><span><i
+                                          class="menu-icons menu-icons-quality"></i> Girikon SQAE</span></span></a></li>
+                                <li id="menu-item-11173"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                    href="/salesforce-consulting/"><span><span><i
+                                          class="menu-icons menu-icons-gear"></i> Salesforce
+                                        Consulting</span></span></a></li>
+                                <li id="menu-item-8671"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                    href="/services/mobile/mobile-app-development/"><span><span><i
+                                          class="menu-icons menu-icons-telephone"></i> Mobile App
+                                        Development</span></span></a></li>
+                                <li id="menu-item-8670"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                    href="/services/mobile/ios-app-development/"><span><span><i
+                                          class="menu-icons menu-icons-technology"></i> iOS App
+                                        Development</span></span></a></li>
+                                <li id="menu-item-8669"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                    href="/services/mobile/android-app-development/"><span><span><i
+                                          class="menu-icons menu-icons-system"></i> Android App
+                                        Development</span></span></a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+                <li id="menu-item-8456"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children hasChildren"><a
+                    class="shape border5px" href="/ai-services-main/"><span data-hover="AI Services"><span>AI
+                        Services</span></span></a>
+                  <ul class="sub-menu">
+                    <li id="menu-item-890097" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                        href="/salesforce-ai-services/"><span><span><i class="menu-icons menu-icons-SAS"></i> Salesforce
+                            AI Services</span></span></a></li>
+                    <li id="menu-item-890096" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                        href="/generative-ai-services/"><span><span><i class="menu-icons menu-icons-GAS"></i> Generative
+                            AI Services</span></span></a></li>
+                    <li id="menu-item-890096" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                        href="https://girikon.ai/" target="_blank"><span><span><i class="menu-icons menu-icons-GAi"></i>
+                            Girikon.AI</span></span></a></li>
+                  </ul>
+                </li>
+                <li id="menu-item-8620"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children hasChildren"><a
+                    class="shape border5px" href="/apps/"><span data-hover="Products"><span>Products</span></span></a>
+                  <ul class="sub-menu">
+                    <li id="menu-item-11332" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                        href="/apps/"><span><span><i class="menu-icons menu-icons-arrows"></i> Salesforce
+                            Apps</span></span></a></li>
+                  </ul>
+                </li>
+                <li id="menu-item-9014"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children hasChildren"><a
+                    class="shape border5px" href="/industries/"><span
+                      data-hover="Industries"><span>Industries</span></span></a>
+                  <ul class="sub-menu">
+                    <li id="menu-item-9548" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                        href="/industries/energy-utilities/"><span><span><i class="menu-icons menu-icons-energy"></i>
+                            Energy / Utilities</span></span></a></li>
+                    <li id="menu-item-9547" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                        href="/industries/education/"><span><span><i class="menu-icons menu-icons-education"></i>
+                            Education</span></span></a></li>
+                    <li id="menu-item-9550" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                        href="/industries/government/"><span><span><i class="menu-icons menu-icons-government"></i>
+                            Government</span></span></a></li>
+                    <li id="menu-item-9543" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                        href="/industries/healthcare-hospitals/"><span><span><i
+                              class="menu-icons menu-icons-healthcare"></i> HealthCare / Hospitals</span></span></a>
+                    </li>
+                    <li id="menu-item-9549" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                        href="/industries/life-sciences/"><span><span><i class="menu-icons menu-icons-life-science"></i>
+                            Life Sciences</span></span></a></li>
+                    <li id="menu-item-9544" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                        href="/industries/media/"><span><span><i class="menu-icons menu-icons-media"></i>
+                            Media</span></span></a></li>
+                    <li id="menu-item-9545" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                        href="/industries/manufacturing/"><span><span><i
+                              class="menu-icons menu-icons-manufacturing"></i> Manufacturing</span></span></a></li>
+                    <li id="menu-item-9546" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                        href="/industries/retail/"><span><span><i class="menu-icons menu-icons-retail"></i>
+                            Retail</span></span></a></li>
+                  </ul>
+                </li>
+                <li id="menu-item-9551" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                    class="shape border5px" href="/career/"><span data-hover="Career"><span>Career</span></span></a>
+                </li>
+                <li id="menu-item-9552" class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                    class="shape border5px" href="./contact.php"><span data-hover="Contact Us"><span>Contact
+                        Us</span></span></a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
