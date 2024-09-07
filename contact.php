@@ -1,10 +1,18 @@
 <?php
+include '.\include\base.html';
 include '.\include\header.html';
 ?>
-<div class="container">
+ <div class="clearfix"></div>
+    <div class="header-height-72"></div>
+    <div class="container-fluid inner-page-nav">
+        <div class="row my-own-nav">
+            <div class="title-container"> </div>
+        </div>
+    </div>
+    <div class="container">
         <p id="breadcrumbs" class="breadcrumbs fx" data-animate="fadeInDown"><span
                 xmlns:v="http://rdf.data-vocabulary.org/#"><span typeof="v:Breadcrumb"><a
-                        href="https://www.girikon.com/" rel="v:url" property="v:title">Home</a> <span
+                        href="" rel="v:url" property="v:title">Home</a> <span
                         class="arrow1">&gt;</span> <strong class="breadcrumb_last">Contact Us</strong></span></span></p>
     </div>
     <script>
@@ -26,6 +34,11 @@ include '.\include\header.html';
         document.getElementById("defaultOpen").click();
     </script>
     <script src="js/api_1.js"></script>
+    <div>
+        <link rel="stylesheet" id="style_assets" href="css/home-slide.css" type="text/css">
+        <link rel="stylesheet" id="style_assets" href="css/flexslider.css" type="text/css">
+        <link rel="stylesheet" id="style_assets" href="css/assets.css" type="text/css">
+    </div>
     <div class="main-heading centered marbottom fx " data-animate="fadeInUp">
         <h1 class="sub-title"><span class="gray">Contact</span> <span class="main-color">Us</span></h1>
         <div class="heading-separator"></div>
@@ -123,6 +136,10 @@ include '.\include\header.html';
             </div>
         </div>
     </div>
-    <?php
+<?php
+include '.\include\clientTestimonials.html';
+include '.\include\partners.html';
+include '.\include\delighted.html';
+include '.\include\contactFooter.html';
 include '.\include\footer.html';
 ?>

@@ -1,8 +1,9 @@
 <?php
+include '.\include\base.html';
 include '.\include\header.html';
 ?>
-
-  <div class="clearfix"></div>
+ 
+<div class="clearfix"></div>
   <div class="header-height-72"></div>
   <div class="container-fluid inner-page-nav">
     <div class="row my-own-nav">
@@ -540,5 +541,9 @@ include '.\include\header.html';
     </div>
   </div>
 <?php
+include '.\include\clientTestimonials.html';
+include '.\include\partners.html';
+include '.\include\delighted.html';
+include '.\include\contactFooter.html';
 include '.\include\footer.html';
 ?>
